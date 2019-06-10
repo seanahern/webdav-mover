@@ -1,0 +1,26 @@
+{
+  "name": "static-mover",
+  "version": "1.0.0",
+  "description": "Migrate static files between two webdav instances",
+  "main": "index.js",
+  "scripts": {
+    "move": "node index.js",
+    "move:all": "node index.js --full"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patagoniaworks/static-mover.git"
+  },
+  "author": "Sean Ahern",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patagoniaworks/static-mover/issues"
+  },
+  "homepage": "https://github.com/patagoniaworks/static-mover#readme",
+  "dependencies": {
+    "cli-progress": "^2.1.1",
+    "dotenv": "^8.0.0",
+    "minimist": "^1.2.0",
+    "webdav": "^2.8.0"
+  }
+}
