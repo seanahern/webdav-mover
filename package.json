@@ -5,7 +5,10 @@
   "main": "./movestatic.js",
 	"bin": {
 		"webdav-mover": "./movestatic.js"
-	}
+	},
+	"engines": {
+		"node": ">=11.6.0"
+	},
   "scripts": {
     "move": "node index.js",
     "move:all": "node index.js --full"
